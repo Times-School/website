@@ -133,7 +133,7 @@ document.getElementById('demoForm').addEventListener('submit', function(event) {
         preferred_time: preferred_time
     };
 
-    fetch('https://script.google.com/macros/s/AKfycbzBxgCdliWBOriPh61pb_NAtvFNlYVluGIGhjwTWGqbrqpEGZU2PWB1j10krukuQgcqhw/exec', {
+    fetch('YOUR_WEB_APP_URL', {
         method: 'POST',
         body: new URLSearchParams(data)
     })
@@ -144,4 +144,3 @@ document.getElementById('demoForm').addEventListener('submit', function(event) {
     })
     .catch(error => console.error('Error:', error));
 });
-
