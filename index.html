@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Times School</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -94,15 +93,15 @@
     <section id="contact">
         <div class="container">
             <h2 data-translate="get_demo">Get First Demo Lesson for Free</h2>
-            <form action="/submit-form" method="post">
+            <form action="https://script.google.com/macros/s/AKfycbzBxgCdliWBOriPh61pb_NAtvFNlYVluGIGhjwTWGqbrqpEGZU2PWB1j10krukuQgcqhw/exec" method="POST">
                 <label for="name" data-translate="name">Name:</label>
-                <input type="text" id="name" name="name">
-    
+                <input type="text" id="name" name="name" required>
+                
                 <label for="phone" data-translate="phone">Phone Number:</label>
-                <input type="text" id="phone" name="phone">
+                <input type="text" id="phone" name="phone" required>
 
                 <label for="course" data-translate="course">Course:</label>
-                <select id="course" name="course">
+                <select id="course" name="course" required>
                     <option value="english" data-translate="course_english">English</option>
                     <option value="kids_english" data-translate="course_kids_english">Kids English</option>
                     <option value="ielts" data-translate="course_ielts">IELTS</option>
@@ -116,7 +115,7 @@
                 </select>
 
                 <label for="preferred_time" data-translate="preferred_time">Preferred Days and Time:</label>
-                <textarea id="preferred_time" name="preferred_time"></textarea>
+                <textarea id="preferred_time" name="preferred_time" required></textarea>
 
                 <button type="submit" data-translate="submit">Submit</button>
             </form>
@@ -131,7 +130,7 @@
         </div>
     </footer>
 
-    <!-- Google Maps Embed -->
+    <script defer src="scripts.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </body>
 </html>
