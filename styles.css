@@ -11,26 +11,39 @@ body {
     overflow: hidden;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header {
     background: #f4f4f4;
     color: #333;
-    padding-top: 50px;
-    min-height: 90px;
+    padding-top: 30px;
+    min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
 
-header .container {
-    display: flex;
-    align-items: center;
-}
-
 header .logo {
-    width: 150px;
+    width: 100px;
     height: auto;
 }
 
-header h1 {
+.header-content {
     flex-grow: 1;
+    text-align: center;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.language-select img {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 5px;
 }
 
 nav {
@@ -54,25 +67,6 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-}
-
-.language-select {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.language-select button {
-    background: #fff;
-    color: #333;
-    border: none;
-    padding: 5px 10px;
-    margin-right: 5px;
-    cursor: pointer;
-}
-
-.language-select button:hover {
-    background: #e8491d;
-    color: #fff;
 }
 
 section {
