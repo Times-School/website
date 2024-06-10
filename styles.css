@@ -47,8 +47,8 @@ header .logo {
 }
 
 .phone-number img {
-    width: 25px;
-    height: auto;
+    width: 5px;
+    height: 5px;
     cursor: pointer;
     margin-left: 5px;
 }
