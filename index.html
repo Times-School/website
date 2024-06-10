@@ -9,10 +9,24 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container header-container">
             <img src="Times_logo-removebg-preview.png" alt="Times School Logo" class="logo">
-            <h1>Times School</h1>
-            <p>Trust your time to us</p>
+            <div class="header-content">
+                <h1>Times School</h1>
+                <p>Trust your time to us</p>
+            </div>
+            <div class="contact-info">
+                <div class="language-select">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_Uzbekistan.svg" alt="Uzbek" onclick="setLanguage('uz')">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg" alt="Russian" onclick="setLanguage('ru')">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="English" onclick="setLanguage('en')">
+                </div>
+                <div class="phone-number">
+                    <img src="phone-icon.png" alt="Phone">
+                    <span>+998 99 249 4989, +998 99 249 4979</span><br>
+                    <span>+998 33 349 4989</span>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -26,11 +40,6 @@
                 <li><a href="#branches" data-translate="branches">Branches</a></li>
                 <li><a href="#contact" data-translate="contact">Get First Demo Lesson for Free</a></li>
             </ul>
-            <div class="language-select">
-                <button onclick="setLanguage('en')">EN</button>
-                <button onclick="setLanguage('ru')">RU</button>
-                <button onclick="setLanguage('uz')">UZ</button>
-            </div>
         </div>
     </nav>
 
@@ -121,5 +130,8 @@
             <p>&copy; 2024 Times School. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Google Maps Embed -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </body>
 </html>
