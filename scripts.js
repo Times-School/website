@@ -117,3 +117,31 @@ function initMap() {
         title: '2nd Branch'
     });
 }
+
+document.getElementById('demoForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const phone = document.getElementById('phone').value;
+    const course = document.getElementById('course').value;
+    const preferred_time = document.getElementById('preferred_time').value;
+
+    const data = {
+        name: name,
+        phone: phone,
+        course: course,
+        preferred_time: preferred_time
+    };
+
+    fetch('https://script.google.com/macros/s/AKfycbzBxgCdliWBOriPh61pb_NAtvFNlYVluGIGhjwTWGqbrqpEGZU2PWB1j10krukuQgcqhw/exec', {
+        method: 'POST',
+        body: new URLSearchParams(data)
+    })
+    .then(response => response.text())
+    .then(result => {
+        document.getElementById('demoForm').reset();
+        document.getElementById('thankYouMessage').classList.remove('hidden');
+    })
+    .catch(error => console.error('Error:', error));
+});
+
