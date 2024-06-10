@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Times School</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -18,59 +19,100 @@
     <nav>
         <div class="container">
             <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#branches">Branches</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#about" data-translate="about">About Us</a></li>
+                <li><a href="#courses" data-translate="courses">Courses</a></li>
+                <li><a href="#academic-support" data-translate="academic_support">Academic Support</a></li>
+                <li><a href="#events" data-translate="events">Events</a></li>
+                <li><a href="#branches" data-translate="branches">Branches</a></li>
+                <li><a href="#contact" data-translate="contact">Get First Demo Lesson for Free</a></li>
             </ul>
+            <div class="language-select">
+                <button onclick="setLanguage('en')">EN</button>
+                <button onclick="setLanguage('ru')">RU</button>
+                <button onclick="setLanguage('uz')">UZ</button>
+            </div>
         </div>
     </nav>
 
     <section id="about">
         <div class="container">
-            <h2>About Us</h2>
-            <p>Times School is a learning centre located in Tashkent, Uzbekistan. Established in 2022, we have two branches and over 1000 students. We offer a variety of courses including English, Kids English, IELTS, CEFR, Maths, Kids Maths, Korean, IT, Russian, and Nursery (Почемучка).</p>
+            <h2 data-translate="about_us">About Us</h2>
+            <p data-translate="about_text">Times School is a learning centre located in Tashkent, Uzbekistan. Established in 2022, we have two branches and over 1000 students. We offer a variety of courses including English, Kids English, IELTS, CEFR, Maths, Kids Maths, Korean, IT, Russian, and Nursery (Почемучка).</p>
         </div>
     </section>
 
     <section id="courses">
         <div class="container">
-            <h2>Courses</h2>
+            <h2 data-translate="courses">Courses</h2>
             <ul>
-                <li>English</li>
-                <li>Kids English</li>
-                <li>IELTS</li>
-                <li>CEFR</li>
-                <li>Maths</li>
-                <li>Kids Maths</li>
-                <li>Korean</li>
-                <li>IT</li>
-                <li>Russian</li>
-                <li>Nursery (Почемучка)</li>
+                <li data-translate="course_english">English</li>
+                <li data-translate="course_kids_english">Kids English</li>
+                <li data-translate="course_ielts">IELTS</li>
+                <li data-translate="course_cefr">CEFR</li>
+                <li data-translate="course_maths">Maths</li>
+                <li data-translate="course_kids_maths">Kids Maths</li>
+                <li data-translate="course_korean">Korean</li>
+                <li data-translate="course_it">IT</li>
+                <li data-translate="course_russian">Russian</li>
+                <li data-translate="course_nursery">Nursery (Почемучка)</li>
             </ul>
+        </div>
+    </section>
+
+    <section id="academic-support">
+        <div class="container">
+            <h2 data-translate="academic_support">Academic Support</h2>
+            <p data-translate="academic_support_text">We offer Academic Support services which students can attend as extra lessons.</p>
+        </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+            <h2 data-translate="events">Events</h2>
+            <p data-translate="events_text">We have Sunday events like movie days, IELTS mock exams, quests, competitions, debates, speaking clubs, and game clubs.</p>
         </div>
     </section>
 
     <section id="branches">
         <div class="container">
-            <h2>Our Branches</h2>
-            <p><a href="https://maps.app.goo.gl/jjWPHSdGWwsGwifYA">1st Branch Location</a></p>
-            <p><a href="https://maps.app.goo.gl/dGdq5168RHe8u82f7">2nd Branch Location</a></p>
+            <h2 data-translate="branches">Our Branches</h2>
+            <p><a href="https://maps.app.goo.gl/jjWPHSdGWwsGwifYA" target="_blank" data-translate="branch1_location">1st Branch Location</a></p>
+            <p><a href="https://maps.app.goo.gl/dGdq5168RHe8u82f7" target="_blank" data-translate="branch2_location">2nd Branch Location</a></p>
+            <div id="map"></div>
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
-            <h2>Contact Us</h2>
+            <h2 data-translate="get_demo">Get First Demo Lesson for Free</h2>
             <form>
-                <label for="name">Name:</label>
+                <label for="name" data-translate="name">Name:</label>
                 <input type="text" id="name" name="name">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-                <button type="submit">Submit</button>
+                
+                <label for="phone" data-translate="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone">
+
+                <label for="course" data-translate="course">Course:</label>
+                <select id="course" name="course">
+                    <option value="english" data-translate="course_english">English</option>
+                    <option value="kids_english" data-translate="course_kids_english">Kids English</option>
+                    <option value="ielts" data-translate="course_ielts">IELTS</option>
+                    <option value="cefr" data-translate="course_cefr">CEFR</option>
+                    <option value="maths" data-translate="course_maths">Maths</option>
+                    <option value="kids_maths" data-translate="course_kids_maths">Kids Maths</option>
+                    <option value="korean" data-translate="course_korean">Korean</option>
+                    <option value="it" data-translate="course_it">IT</option>
+                    <option value="russian" data-translate="course_russian">Russian</option>
+                    <option value="nursery" data-translate="course_nursery">Nursery (Почемучка)</option>
+                </select>
+
+                <label for="preferred_time" data-translate="preferred_time">Preferred Days and Time:</label>
+                <textarea id="preferred_time" name="preferred_time"></textarea>
+
+                <button type="submit" data-translate="submit">Submit</button>
             </form>
+            <p>Branch 1: +998 99 249 4989, +998 99 249 4979</p>
+            <p>Branch 2: +998 33 349 4989</p>
         </div>
     </section>
 
