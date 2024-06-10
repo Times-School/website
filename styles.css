@@ -46,13 +46,6 @@ header .logo {
     margin-left: 5px;
 }
 
-.phone-number img {
-    width: 5px;
-    height: 5px;
-    cursor: pointer;
-    margin-left: 5px;
-}
-
 nav {
     background: #333;
     color: #fff;
