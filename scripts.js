@@ -98,3 +98,22 @@ function setLanguage(language) {
         el.textContent = translations[language][key];
     });
 }
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 41.311158, lng: 69.279737}, // Coordinates of Tashkent
+        zoom: 12
+    });
+
+    var marker1 = new google.maps.Marker({
+        position: {lat: 41.326515, lng: 69.228244}, // Coordinates for 1st branch
+        map: map,
+        title: '1st Branch'
+    });
+
+    var marker2 = new google.maps.Marker({
+        position: {lat: 41.311158, lng: 69.279737}, // Coordinates for 2nd branch
+        map: map,
+        title: '2nd Branch'
+    });
+}
