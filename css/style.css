@@ -1263,7 +1263,7 @@ a {
         height: 100%;
         padding: 36px;
         background: rgba(178, 34, 34, 0.91);
-        backdrop-filter: blur(3px);
+        backdrop-filter: blur(2px);
         -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
