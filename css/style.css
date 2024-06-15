@@ -126,8 +126,8 @@ a {
 }
 .btn_white,
 .btn_yellow {
-    background-color: #FF9600;
-    border: 1px solid #FF9600;
+    background-color: #FFE5E5;
+    border: 1px solid #FFE5E5;
     border-radius: 15px;
     font-family: 'Mulish-Bold';
     font-size: 28px;
@@ -168,7 +168,7 @@ a {
     right: 0;
     padding: 16px 34px;
     background: #B22222;
-    border: 2px solid #FF9600;
+    border: 2px solid #FFE5E5;
     border-radius: 100px;
     display: flex;
     gap: 35px;
@@ -196,7 +196,7 @@ a {
 }
 
 .banner .social_list a:hover {
-    background: #FF9600;
+    background: #FFE5E5;
     border-radius: 8px;
 }
 .about_section .container {
@@ -235,7 +235,7 @@ a {
     font-family: 'Raleway-ExtraBold';
     font-size: 40px;
     line-height: 47px;
-    color: #FF9600;
+    color: #FFE5E5;
     text-align: center;
     margin: 100px 0px 60px 0px;
     position: relative;
@@ -552,7 +552,7 @@ a {
     font-family: 'Raleway-ExtraBold';
     font-size: 64px;
     line-height: 75px;
-    color: #FF9600;
+    color: #FFE5E5;
     margin-bottom: 55px;
 }
 .contact_banner .banner_btns{
@@ -587,7 +587,7 @@ a {
     justify-content: center;
     width: 70px;
     height: 70px;
-    background: #FF9600;
+    background: #FFE5E5;
     border-radius: 50%;
 }
 .single_page_banner{
@@ -642,7 +642,7 @@ a {
     font-family: 'Raleway-ExtraBold';
     font-size: 40px;
     line-height: 47px;
-    color: #FF9600;
+    color: #FFE5E5;
     text-align: center;
     margin-bottom: 35px;
 }
@@ -733,7 +733,7 @@ a {
     font-family: 'Raleway-ExtraBold';
     font-size: 40px;
     line-height: 47px;
-    color: #FF9600;
+    color: #FFE5E5;
     text-align: center;
     z-index: 1;
     position: relative;
@@ -786,8 +786,8 @@ a {
     border: none;
 }
 .btn_read_yellow{
-    background: #FF9600;
-    border: 1px solid #FF9600;
+    background: #FFE5E5;
+    border: 1px solid #FFE5E5;
     border-radius: 15px;
     padding: 13px 36px;
     font-family: 'Mulish-Bold';
@@ -817,7 +817,7 @@ a {
     font-family: 'Raleway-ExtraBold';
     font-size: 32px;
     line-height: 38px;
-    color: #FF9600;
+    color: #FFE5E5;
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 34px;
     margin-bottom: 34px;
@@ -861,7 +861,7 @@ a {
     font-family: 'Raleway-ExtraBold';
     font-size: 40px;
     line-height: 47px;
-    color: #FF9600;
+    color: #FFE5E5;
     margin-bottom: 30px;
 }
 .form_vocansy .left p{
@@ -887,7 +887,7 @@ a {
     padding-left: 50px;
 }
 .type_program{
-    background: #FFF5E8;
+    background: #FFE5E5;
     padding: 40px 0px;
 }
 .type_program .section_title{
@@ -1010,7 +1010,7 @@ a {
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-    background: #FF9600;
+    background: #FFE5E5;
     letter-spacing: 1px;
     margin-top: 24px;
     margin-bottom: 29px;
