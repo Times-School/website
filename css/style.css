@@ -77,13 +77,13 @@ a {
 
 .main_menu {
     display: flex;
-    gap: 30px;
+    gap: 35px;
 }
 
 .main_menu a {
     font-family: 'Raleway-Medium';
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 28px;
     color: #000000;
 }
 
