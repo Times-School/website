@@ -94,7 +94,7 @@ a {
 }
 
 .logo img {
-    width: 200px; /* Adjust the width as needed */
+    width: 250px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -1587,8 +1587,6 @@ a {
     }
     .main_footer .logo{
         display: none;
-        width: 300px; /* Adjust the width as needed */
-        height: auto; /* Maintain aspect ratio */
     }
     .footer_address, 
     .footer_menu{
