@@ -1587,6 +1587,8 @@ a {
     }
     .main_footer .logo{
         display: none;
+        width: 300px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
     }
     .footer_address, 
     .footer_menu{
