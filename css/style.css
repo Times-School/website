@@ -89,7 +89,7 @@ a {
 .main_menu a.active,
 .main_menu a:hover {
     font-family: 'Raleway-ExtraBold';
-    color: #B22222;
+    color: #8B0000;
 }
 
 .lang {
@@ -167,7 +167,7 @@ a {
     bottom: 52px;
     right: 0;
     padding: 16px 34px;
-    background: #B22222;
+    background: #8B0000;
     border: 2px solid #e89595;
     border-radius: 100px;
     display: flex;
@@ -250,7 +250,7 @@ a {
 }
 .features_list .f_item{
     background: #FFFFFF;
-    border: 1px solid #B22222;
+    border: 1px solid #8B0000;
     border-radius: 12px;
     width: calc(100% / 3 - 30px);
     text-align: center;
@@ -424,7 +424,7 @@ a {
 .slider_btns div{
     width: 57px;
     height: 58px;
-    border: 1px solid #B22222;
+    border: 1px solid #8B0000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -447,7 +447,7 @@ a {
     line-height: 47px;
     text-align: center;
     letter-spacing: 0.1em;
-    color: #B22222;
+    color: #8B0000;
     margin-bottom: 60px;
 }
 .address_list .add_item .left address{
@@ -482,7 +482,7 @@ a {
     top: 0;
     right: 0;
     bottom: 0;
-    background: #B22222;
+    background: #8B0000;
     font-family: 'Raleway-ExtraBold';
     font-size: 40px;
     line-height: 47px;
@@ -671,7 +671,7 @@ a {
 .modal_content{
     background: rgba(126, 34, 206, 0.8);
     border: 1px solid rgba(126, 34, 206, 0.9);
-    box-shadow: 0px 4px 30px #B22222;
+    box-shadow: 0px 4px 30px #8B0000;
     border-radius: 30px;
     padding: 54px 50px 30px 50px;
     color: white;
@@ -929,7 +929,7 @@ a {
     margin-bottom: 50px;
 }
 .lesson_type_list .item{
-    background: #B22222;
+    background: #8B0000;
     box-shadow: 8px 6px 11px 2px rgba(126, 34, 206, 0.1), 8px 6px 11px 2px rgba(126, 34, 206, 0.11);
     border-radius: 16px;
     color: white;
@@ -975,7 +975,7 @@ a {
     display: none;
 }
 .team_slider .team_item{
-    border: 1px solid #B22222;
+    border: 1px solid #8B0000;
     border-radius: 16px;
     padding-top: 51px;
 }
@@ -1209,7 +1209,7 @@ a {
     .btn_mobile_menu{
         width: 42px;
         height: 42px;
-        background: #B22222;
+        background: #8B0000;
         padding: 5px;
         display: flex;
         flex-direction: column;
@@ -1557,7 +1557,7 @@ a {
         position: absolute;
         bottom: 0;
         width: 188px;
-        background: #B22222;
+        background: #8B0000;
         height: 1px;
         margin: auto;
         left: 0;
