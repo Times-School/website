@@ -383,7 +383,7 @@ a {
 }
 .students_item .img img {
     height: 420px;
-    width: 100%;
+    width: 350px;
     object-fit: cover;
 }
 .students_item .middle {
