@@ -578,7 +578,8 @@ a {
     border-radius: 16px;
 }
 .btn_tel{
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 18px;
     font-family: 'Mulish-ExtraBold';
@@ -586,6 +587,7 @@ a {
     line-height: 40px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    margin-bottom: 10px; /* Add some margin to separate the numbers */
 }
 .btn_tel span{
     display: flex;
@@ -1608,7 +1610,7 @@ a {
         padding: 16px 12px;
     }
     .contact_banner{
-        height: 394px;
+        height: 420px;
         background-position: center;
         background-size: contain;
         padding-top: 93px;
