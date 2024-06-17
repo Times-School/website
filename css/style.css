@@ -375,13 +375,13 @@ a {
 .students_item .img{
     /* padding: 34px 62px 8px 55px; */
     margin-left: 20px;
-    height: 600px;
+    height: 450px;
 }
 .students_item .img img {
-    height: 600px;
+    height: 500px;
     width: 350px;
     object-fit: cover;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
 }
 .students_item .middle {
     width: 200px;
