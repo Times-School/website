@@ -577,6 +577,17 @@ a {
     border: 1px solid #FFFFFF;
     border-radius: 16px;
 }
+.contact_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+.contact_section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .btn_tel {
     display: flex;
     align-items: center;
