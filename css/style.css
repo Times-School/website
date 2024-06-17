@@ -380,8 +380,11 @@ a {
     background-position: center;
     height: 443px;
 }
-.students_item .img img{
-    height: 100%;
+.students_item .img img {
+    height: auto;
+    max-height: 480px; /* Increase height as needed */
+    width: 100%;
+    object-fit: cover;
 }
 .students_item .middle{
     width: 197px;
