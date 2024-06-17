@@ -374,6 +374,7 @@ a {
 }
 .students_item .img{
     /* padding: 34px 62px 8px 55px; */
+    margin-left: 20px;
     background-image: url(../img/circle.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,8 +382,7 @@ a {
     height: 443px;
 }
 .students_item .img img {
-    height: auto;
-    max-height: 480px; /* Increase height as needed */
+    height: 420px;
     width: 100%;
     object-fit: cover;
 }
