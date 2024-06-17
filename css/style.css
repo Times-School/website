@@ -1647,14 +1647,7 @@ a {
     .students_item .middle, 
     .students_item .right {
         width: 100%; /* Make text sections take full width */
-        text-align: left; /* Left align text */
-    }
-    .students_item .middle {
-        margin-top: 10;
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 15px;
-        align-items: flex-end; /* Align name to the bottom */
+        text-align: center; /* Left align text */
     }
     .students_item .middle h5, 
     .students_item .middle h6 {
@@ -1665,18 +1658,10 @@ a {
     /* For moving the values closer to the labels */
     .students_item .right p {
         display: flex;
-        justify-content: space-between; /* Space between label and value */
+        justify-content: space-evenly; /* Space between label and value */
         font-size: 18px; /* Adjust font size for mobile */
         line-height: 22px; /* Adjust line height for readability */
         margin-bottom: 5px; /* Reduce the space between lines */
-    }
-    .students_item .right p {
-        font-size: 18px; /* Adjust font size for mobile */
-        line-height: 22px; /* Adjust line height for readability */
-        margin-bottom: 5px; /* Reduce the space between lines */
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
     }
     .students_item .right p span {
         margin-left: auto;
