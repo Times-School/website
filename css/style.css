@@ -1670,6 +1670,41 @@ a {
         height: 47px;
     }
 }
+    .students_item {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .students_item .img {
+        height: auto; /* Let image height adjust */
+        width: 80%; /* Adjust width for mobile view */
+        margin-bottom: 20px; /* Add space between image and text */
+    }
+
+    .students_item .img img {
+        height: auto; /* Let image height adjust */
+        width: 100%; /* Make image full width */
+        max-width: 300px; /* Optional: set a max width */
+    }
+
+    .students_item .middle, 
+    .students_item .right {
+        width: 100%; /* Make text sections take full width */
+        text-align: center; /* Center align text */
+    }
+
+    .students_item .middle h5, 
+    .students_item .middle h6, 
+    .students_item .right p {
+        font-size: 18px; /* Adjust font size for mobile */
+        line-height: 22px; /* Adjust line height for readability */
+    }
+
+    .students_item .middle {
+        margin-top: 0;
+    }
+}
 @media screen and (max-width: 500px){
     .team_slider .team_item .img_member{
         min-width: unset;
