@@ -386,12 +386,13 @@ a {
     width: 100%;
     object-fit: cover;
 }
-.students_item .middle{
-    width: 197px;
+.students_item .middle {
+    width: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-left: -173px;
+    justify-content: center;
+    margin-left: 20px; /* Adjust margin to align the text */
+    transform: translateY(-20%); /* Adjust this value to move it slightly above center */
 }
 .students_item .left{
     display: flex;
