@@ -1629,13 +1629,11 @@ a {
         width: 47px;
         height: 47px;
     }
-}
     .students_item {
         flex-direction: column;
         align-items: center;
         padding: 20px;
     }
-
     .students_item .img {
         height: auto; /* Let image height adjust */
         width: 80%; /* Adjust width for mobile view */
