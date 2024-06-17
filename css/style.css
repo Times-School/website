@@ -1636,34 +1636,32 @@ a {
     }
     .students_item .left {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         width: 100%;
     }
     .students_item .img {
-        height: auto;
-        width: 40%;
-        margin-bottom: 0;
-        margin-left: 5px;
+        width: 100%;
+        margin-bottom: 10px;
     }
     .students_item .img img {
-        height: auto;
         width: 100%;
-        max-width: 100%;
+        max-width: 300px;
     }
     .students_item .middle {
-        width: 60%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        margin-left: 10px;
-        text-align: left;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
     }
     .students_item .middle h5,
     .students_item .middle h6 {
         font-size: 18px;
         line-height: 22px;
-        margin: 0;
+        margin: 0 10px;
     }
     .students_item .right {
         width: 100%;
