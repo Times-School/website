@@ -1630,57 +1630,20 @@ a {
         height: 47px;
     }
     .students_item {
-        display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 10px;
     }
-    .students_item .left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    .students_item .left, .students_item .middle, .students_item .right {
+        display: none;
     }
     .students_item .img {
         width: auto;
         margin-bottom: 10px;
     }
     .students_item .img img {
-        width: auto;
-        max-width: 100%;
+        width: 100%;
+        max-width: 300px;
         height: auto;
-    }
-    .students_item .middle {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .students_item .middle h5,
-    .students_item .middle h6 {
-        font-size: 18px;
-        line-height: 22px;
-        margin: 5px 0;
-    }
-    .students_item .right {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 10px;
-        width: 100%;
-    }
-    .students_item .right p {
-        display: flex;
-        justify-content: space-between;
-        font-size: 18px;
-        line-height: 22px;
-        margin-bottom: 5px;
-        width: 100%;
-    }
-    .students_item .right p b {
-        margin-left: 10px;
     }
 }
 @media screen and (max-width: 500px){
