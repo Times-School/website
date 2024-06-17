@@ -1637,25 +1637,25 @@ a {
     }
     .students_item .left {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         width: 100%;
     }
     .students_item .img {
-        flex: 0 0 auto;
-        width: 150px; /* Adjust width if needed */
-        margin-right: 10px;
+        width: auto;
+        margin-bottom: 10px;
     }
     .students_item .img img {
-        width: 100%;
+        width: auto;
+        max-width: 100%;
         height: auto;
     }
     .students_item .middle {
-        flex: 1;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        text-align: left;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
     }
     .students_item .middle h5,
     .students_item .middle h6 {
@@ -1664,9 +1664,12 @@ a {
         margin: 5px 0;
     }
     .students_item .right {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         margin-top: 10px;
+        width: 100%;
     }
     .students_item .right p {
         display: flex;
@@ -1674,6 +1677,10 @@ a {
         font-size: 18px;
         line-height: 22px;
         margin-bottom: 5px;
+        width: 100%;
+    }
+    .students_item .right p b {
+        margin-left: 10px;
     }
 }
 @media screen and (max-width: 500px){
