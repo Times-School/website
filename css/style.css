@@ -1647,7 +1647,7 @@ a {
     .students_item .middle, 
     .students_item .right {
         width: 100%; /* Make text sections take full width */
-        text-align: end;
+        text-align: center;
     }
     .students_item .middle h5, 
     .students_item .middle h6, 
@@ -1659,7 +1659,6 @@ a {
         margin-top: 0;
     }
     .students_item .middle h5 {
-        margin-bottom: 3px; /* Add some space between lines */
     }
     .students_item .right p {
         margin-bottom: 3px; /* Reduce the space between lines */
