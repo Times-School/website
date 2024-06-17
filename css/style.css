@@ -380,6 +380,7 @@ a {
     background-size: cover;
     background-position: center;
     height: 443px;
+    align-items: center;
 }
 .students_item .img img {
     height: 500px;
