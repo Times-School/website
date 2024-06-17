@@ -1631,8 +1631,8 @@ a {
     }
     .students_item {
         flex-direction: column;
-        align-items: center;
-        padding: 20px;
+        align-items: right;
+        padding: 10px;
     }
     .students_item .img {
         height: auto; /* Let image height adjust */
