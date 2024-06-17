@@ -543,7 +543,7 @@ a {
     display: flex;
     gap: 14px;
 }
-.contact_banner{
+.contact_banner {
     height: 843px;
     background-color: #A52A2A;
     background-image: url(../img/contactleft.png), url(../img/contactphone.png);
@@ -553,6 +553,7 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center; /* Added this line */
 }
 .contact_banner h1{
     font-family: 'Raleway-ExtraBold';
@@ -582,14 +583,14 @@ a {
 }
 .btn_tel {
     display: flex;
-    align-items: center; /* Changed from 'flex-start' to 'center' */
+    align-items: center;
     gap: 18px;
     font-family: 'Mulish-ExtraBold';
     font-size: 32px;
     line-height: 40px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    margin-bottom: 10px; /* Add some margin to separate the numbers */
+    margin-bottom: 10px;
 }
 .btn_tel span {
     display: flex;
