@@ -577,9 +577,12 @@ a {
     border: 1px solid #FFFFFF;
     border-radius: 16px;
 }
+.contact_banner .container {
+    text-align: center;
+}
 .btn_tel {
     display: flex;
-    align-items: center;
+    align-items: center; /* Changed from 'flex-start' to 'center' */
     gap: 18px;
     font-family: 'Mulish-ExtraBold';
     font-size: 32px;
