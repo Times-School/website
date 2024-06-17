@@ -577,9 +577,8 @@ a {
     border: 1px solid #FFFFFF;
     border-radius: 16px;
 }
-.btn_tel{
+.btn_tel {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 18px;
     font-family: 'Mulish-ExtraBold';
@@ -589,7 +588,8 @@ a {
     color: #FFFFFF;
     margin-bottom: 10px; /* Add some margin to separate the numbers */
 }
-.btn_tel span{
+
+.btn_tel span {
     display: flex;
     align-items: center;
     justify-content: center;
