@@ -1654,6 +1654,7 @@ a {
         display: flex;
         justify-content: flex-start;
         margin-left: 15px;
+        align-items: flex-end; /* Align name to the bottom */
     }
     .students_item .middle h5, 
     .students_item .middle h6 {
@@ -1661,11 +1662,13 @@ a {
         line-height: 22px; /* Adjust line height for readability */
         margin-left: 10px;
     }
-    .students_item .right {
+    /* For moving the values closer to the labels */
+    .students_item .right p {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 15px;
+        justify-content: space-between; /* Space between label and value */
+        font-size: 18px; /* Adjust font size for mobile */
+        line-height: 22px; /* Adjust line height for readability */
+        margin-bottom: 3px; /* Reduce the space between lines */
     }
     .students_item .right p {
         font-size: 18px; /* Adjust font size for mobile */
