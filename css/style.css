@@ -1637,25 +1637,26 @@ a {
     }
     .students_item .left {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         width: 100%;
     }
     .students_item .img {
-        width: 100%;
+        width: auto;
         margin-bottom: 10px;
     }
     .students_item .img img {
-        width: 100%;
-        max-width: 300px;
+        width: auto;
+        max-width: 100%;
+        height: auto;
     }
     .students_item .middle {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: auto;
         text-align: center;
-        margin-top: 10px;
+        margin-left: 10px;
     }
     .students_item .middle h5,
     .students_item .middle h6 {
