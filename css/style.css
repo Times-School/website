@@ -1635,38 +1635,35 @@ a {
         padding: 10px;
     }
     .students_item .img {
-        height: auto; /* Let image height adjust */
-        width: 90%; /* Adjust width for mobile view */
-        margin-bottom: 20px; /* Add space between image and text */
+        height: auto;
+        width: 90%;
+        margin-bottom: 20px;
         margin-left: 5px;
     }
     .students_item .img img {
-        height: auto; /* Let image height adjust */
-        width: 100%; /* Make image full width */
-        max-width: 300px; /* Optional: set a max width */
+        height: auto;
+        width: 100%;
+        max-width: 300px;
     }
-    .students_item .middle, 
     .students_item .right {
-        width: 100%; /* Make text sections take full width */
-        display: flex;
-        justify-content: flex-end;
+        width: 100%;
+        text-align: right;
     }
     .students_item .middle h5 {
         text-align: right;
     }
-    .students_item .middle h5, 
+    .students_item .middle h5,
     .students_item .middle h6 {
         font-size: 18px;
-        line-height: 22px; /* Adjust line height for readability */
+        line-height: 22px;
         text-align: right;
     }
-    /* For moving the values closer to the labels */
     .students_item .right p {
         display: flex;
-        justify-content: center; /* Space between label and value */
-        font-size: 18px; /* Adjust font size for mobile */
-        line-height: 22px; /* Adjust line height for readability */
-        margin-bottom: 5px; /* Reduce the space between lines */
+        justify-content: center;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 5px;
     }
     .students_item .right p span {
         margin-left: auto;
