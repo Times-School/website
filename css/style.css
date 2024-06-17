@@ -385,7 +385,7 @@ a {
     height: 500px;
     width: 350px;
     object-fit: cover;
-    align-items: center;
+    padding-bottom: 20px;
 }
 .students_item .middle {
     width: 200px;
