@@ -362,7 +362,7 @@ a {
 }
 .students_item{
     padding: 82px 55px 54px 0px;
-    background: #FF7F7F;
+    background: #FA6666;
     border-radius: 20px;
     justify-content: space-between;
     align-items: center;
@@ -385,6 +385,7 @@ a {
     height: 500px;
     width: 350px;
     object-fit: cover;
+    justify-content: center;
 }
 .students_item .middle {
     width: 200px;
@@ -399,15 +400,15 @@ a {
 }
 .students_item .middle h5{
     font-family: 'Raleway-ExtraBold';
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 50px;
+    line-height: 60px;
     color: #FFFFFF;
 }
 .students_item .middle h6{
     font-family: 'Raleway-Light';
     font-weight: 300;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 55px;
+    line-height: 65px;
     color: #FFFFFF;
 }
 .students_item .right p{
