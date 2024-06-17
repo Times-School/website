@@ -577,7 +577,7 @@ a {
     border: 1px solid #FFFFFF;
     border-radius: 16px;
 }
-.btn_tel{
+.btn_tel {
     display: flex;
     align-items: center;
     gap: 18px;
@@ -586,14 +586,15 @@ a {
     line-height: 40px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    margin-bottom: 10px; /* Add some margin to separate the numbers */
 }
-.btn_tel span{
+.btn_tel span {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 70px;
     height: 70px;
-    background: #FF9600;
+    background: #db2121;
     border-radius: 50%;
 }
 .single_page_banner{
