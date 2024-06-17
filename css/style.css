@@ -1653,12 +1653,12 @@ a {
     .students_item .middle h6 {
         font-size: 18px; /* Adjust font size for mobile */
         line-height: 22px; /* Adjust line height for readability */
-        margin-left: 10px;
+        text-align: right;
     }
     /* For moving the values closer to the labels */
     .students_item .right p {
         display: flex;
-        justify-content: space-evenly; /* Space between label and value */
+        justify-content: center; /* Space between label and value */
         font-size: 18px; /* Adjust font size for mobile */
         line-height: 22px; /* Adjust line height for readability */
         margin-bottom: 5px; /* Reduce the space between lines */
