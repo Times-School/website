@@ -385,7 +385,7 @@ a {
     height: 500px;
     width: 350px;
     object-fit: cover;
-    justify-content: center;
+    margin-bottom: 20px;
 }
 .students_item .middle {
     width: 200px;
@@ -413,8 +413,8 @@ a {
 }
 .students_item .right p{
     font-family: 'Raleway-Medium';
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 42px;
+    line-height: 48px;
     color: #FFFFFF;
     width: 283px;
     display: flex;
