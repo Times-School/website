@@ -1649,6 +1649,9 @@ a {
         width: 100%; /* Make text sections take full width */
         text-align: right; /* Left align text */
     }
+    .students_item .middle h5 {
+        text-align: right;
+    }
     .students_item .middle h5, 
     .students_item .middle h6 {
         font-size: 18px; /* Adjust font size for mobile */
