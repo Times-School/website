@@ -596,6 +596,17 @@ a {
     background: #db2121;
     border-radius: 50%;
 }
+.single_page_banner{
+    height: 845px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .single_page_banner:before{
     content: '';
     position: absolute;
