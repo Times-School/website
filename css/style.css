@@ -1636,32 +1636,47 @@ a {
     }
     .students_item .img {
         height: auto; /* Let image height adjust */
-        width: 80%; /* Adjust width for mobile view */
+        width: 70%; /* Adjust width for mobile view */
         margin-bottom: 20px; /* Add space between image and text */
     }
     .students_item .img img {
         height: auto; /* Let image height adjust */
         width: 100%; /* Make image full width */
-        max-width: 300px; /* Optional: set a max width */
+        max-width: 250px; /* Optional: set a max width */
     }
     .students_item .middle, 
     .students_item .right {
         width: 100%; /* Make text sections take full width */
-        text-align: center;
-    }
-    .students_item .middle h5, 
-    .students_item .middle h6, 
-    .students_item .right p {
-        font-size: 18px; /* Adjust font size for mobile */
-        line-height: 22px; /* Adjust line height for readability */
+        text-align: left; /* Left align text */
     }
     .students_item .middle {
         margin-top: 0;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 15px;
     }
-    .students_item .middle h5 {
+    .students_item .middle h5, 
+    .students_item .middle h6 {
+        font-size: 18px; /* Adjust font size for mobile */
+        line-height: 22px; /* Adjust line height for readability */
+        margin-left: 10px;
+    }
+    .students_item .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15px;
     }
     .students_item .right p {
+        font-size: 18px; /* Adjust font size for mobile */
+        line-height: 22px; /* Adjust line height for readability */
         margin-bottom: 3px; /* Reduce the space between lines */
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .students_item .right p span {
+        margin-left: auto;
     }
 }
 @media screen and (max-width: 500px){
