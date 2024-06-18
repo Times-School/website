@@ -947,7 +947,7 @@ a {
     font-size: 32px;
     line-height: 36px;
     text-transform: capitalize;
-    color: #000000;
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 .type_program .item  p{
@@ -957,7 +957,7 @@ a {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.025em;
-    color: #000000;
+    color: #FFFFFF;
 }
 .lesson_type .lesson_type_list{
     display: flex;
