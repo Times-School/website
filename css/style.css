@@ -81,6 +81,9 @@ a {
 }
 
 .main_menu a {
+    font-family: 'Raleway-ExtraBold';
+    font-size: 24px;
+    line-height: 28px;
     position: relative;
     display: inline-block;
     padding: 5px; /* Adjust padding as needed */
@@ -104,6 +107,7 @@ a {
 
 .main_menu a.active::before,
 .main_menu a:hover::before {
+    font-family: 'Raleway-ExtraBold';
     opacity: 1;
 }
 
