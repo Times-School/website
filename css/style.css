@@ -1738,6 +1738,60 @@ a {
         width: 100%;
         margin-bottom: 20px;
     }
+    .type_program .container,
+    .lesson_type .lesson_type_list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .type_program .item,
+    .lesson_type_list .item {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .type_program .item img {
+        margin-bottom: 10px;
+        width: 100px;
+    }
+
+    .type_program .item h6,
+    .lesson_type_list .item h6 {
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+
+    .type_program .item p,
+    .lesson_type_list .item p {
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+    .form_vocansy .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_vocansy .left, 
+    .form_vocansy .right_form {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .form_vocansy .right_form .modal_content {
+        padding: 20px;
+    }
+
+    .form_vocansy .right_form .modal_content .bg_input {
+        margin-bottom: 15px;
+    }
+
+    .form_vocansy .right_form .modal_content .btn_yellow {
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+    }
 }
 @media screen and (max-width: 500px){
     .team_slider .team_item .img_member{
