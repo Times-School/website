@@ -834,6 +834,7 @@ a {
     position: relative;
     display: inline-flex;
     margin-bottom: 30px;
+    justify-content: center;
 }
 .vocansy_list{
     display: flex;
