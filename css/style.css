@@ -1685,6 +1685,69 @@ a {
         max-width: 300px;
         height: auto;
     }
+    .main_nav .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main_menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .single_page_banner {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .single_page_banner h1, 
+    .single_page_banner p {
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+
+    .single_page_banner a {
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .page_details .container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .lesson_type_list .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .vocansy_list .item {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .vocansy_list .item h4 {
+        font-size: 1.2em;
+        line-height: 1.4em;
+    }
+
+    .vocansy_list .item .filal,
+    .vocansy_list .item .salary,
+    .vocansy_list .item .info {
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+
+    .our_clients .container {
+        flex-direction: column;
+    }
+
+    .our_clients .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 @media screen and (max-width: 500px){
     .team_slider .team_item .img_member{
