@@ -132,17 +132,18 @@
         </div>
     </section>
     <!-- form_vocansy -->
-    <section class="form_vocansy">
-        <div class="container">
-            <div class="left">
-                <h2>ОТКЛИК НА ВАКАНСИЮ</h2>
-                <p>Перед отправкой заявки, убедительно просим вас проверить все заполненные данные и выбранную вакансию. 
-                В ближайшее время с вами свяжется наш HR-менежер.</p>
-            </div>
-            <div class="right_form">
-                <div class="modal_content">
-                    <input type="text" placeholder="Ваше имя" class="bg_input">
-                    <select name="courses" class="bg_input">
+<section class="form_vocansy">
+    <div class="container">
+        <div class="left">
+            <h2>ОТКЛИК НА ВАКАНСИЮ</h2>
+            <p>Перед отправкой заявки, убедительно просим вас проверить все заполненные данные и выбранную вакансию. 
+            В ближайшее время с вами свяжется наш HR-менежер.</p>
+        </div>
+        <div class="right_form">
+            <div class="modal_content">
+                <form id="vacancyForm">
+                    <input type="text" name="name" placeholder="Ваше имя" class="bg_input" required>
+                    <select name="course" class="bg_input" required>
                         <option disabled selected>Не выбрано</option>
                         <option value="english">УЧИТЕЛЬ АНГЛИЙСКОГО</option>
                         <option value="maths">УЧИТЕЛЬ МАТЕМАТИКИ</option>
@@ -151,13 +152,14 @@
                         <option value="IT">УЧИТЕЛЬ IT</option>
                         <option value="nursery">УЧИТЕЛЬ ПОЧЕМУЧКИ</option>
                     </select>
-                    <input type="text" placeholder="Ваше телефон" class="bg_input">
-                    <input type="text" placeholder="Telegram @username" class="bg_input">
-                    <button class="btn_yellow">ОТПРАВИТЬ</button>
-                </div>
+                    <input type="text" name="phone" placeholder="Ваше телефон" class="bg_input" required>
+                    <input type="text" name="telegram" placeholder="Telegram @username" class="bg_input" required>
+                    <button type="submit" class="btn_yellow">ОТПРАВИТЬ</button>
+                </form>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <!-- main_footer -->
     <footer class="main_footer">
         <div class="container">
@@ -209,6 +211,25 @@
     <script src="js/jquery-3.6.4.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/all.js"></script>
+    <script>
+    document.getElementById('vacancyForm').onsubmit = function(e) {
+        e.preventDefault();
+
+        var form = document.getElementById('vacancyForm');
+        var data = new FormData(form);
+
+        fetch('https://script.google.com/macros/s/AKfycbzBxgCdliWBOriPh61pb_NAtvFNlYVluGIGhjwTWGqbrqpEGZU2PWB1j10krukuQgcqhw/exec', {
+            method: 'POST',
+            body: data
+        }).then(response => response.text())
+        .then(result => {
+            alert(result);
+        }).catch(error => {
+            console.error('Error!', error.message);
+        });
+    };
+    </script>
+
 </body>
 
 </html>
