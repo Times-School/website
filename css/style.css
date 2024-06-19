@@ -1685,16 +1685,6 @@ a {
         max-width: 300px;
         height: auto;
     }
-    .main_nav .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .main_menu {
-        flex-direction: column;
-        gap: 15px;
-    }
-
     .single_page_banner {
         height: auto;
         padding: 20px;
