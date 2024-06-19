@@ -1792,6 +1792,18 @@ a {
         padding: 10px;
         font-size: 1em;
     }
+    .our_clients .slider .s_item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .our_clients .slider .s_item img {
+        width: 100%;
+        height: auto;
+        max-width: 300px; /* Adjust the max width as needed */
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 500px){
     .team_slider .team_item .img_member{
