@@ -765,11 +765,6 @@ a {
     padding: 70px 0px;
     position: relative;
 }
-.work_with_us .container {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-}
 .work_with_us h2{
     font-family: 'Raleway-ExtraBold';
     font-size: 40px;
@@ -837,9 +832,10 @@ a {
     text-transform: uppercase;
     color: #FFFFFF;
     position: relative;
-    display: inline-flex;
     margin-bottom: 30px;
-    justify-content: center;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
 }
 .vocansy_list{
     display: flex;
